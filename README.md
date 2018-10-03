@@ -21,3 +21,8 @@ PULL:
 git checkout master(seleciona branch master local)
 git pull origin master(pega alterações da master remota e joga na master local)
 git rebase master working(pega alterações da master local e joga na working)
+
+
+## STASH
+  O código vai para uma pilha local e permite mudar de branch.
+  depois com o git stash pop ele vai colocar o código na branch atual.
